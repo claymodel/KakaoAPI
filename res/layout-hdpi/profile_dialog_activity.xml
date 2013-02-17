@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="120dp"
+    android:padding="10dp"
+    android:background="@color/default_background" >
+
+    <ImageView
+        android:id="@+id/profile_dialog_activity_iv_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/profile_dialog_activity_tv_nickname"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/profile_dialog_activity_iv_profile"
+        android:gravity="center_vertical"
+        android:textColor="#40220f"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_dialog_activity_tv_user_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/profile_dialog_activity_tv_nickname"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/profile_dialog_activity_iv_profile"
+        android:textColor="#7a6a56"
+        android:textSize="17sp" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+	<integer name="splash_screen_time">500</integer>
+    <string name="app_name">kakao app1</string>
+</resources>

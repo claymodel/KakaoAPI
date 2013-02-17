@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/default_background" >
+	
+    <ImageView
+        android:id="@+id/login_activity_iv_logo"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo_login_kakaotalk" />
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+	    <TextView
+	        android:layout_width="264.88dp"
+	        android:layout_height="37.33dp"
+	        android:gravity="center"
+	        android:text="Connecting service..."
+	        android:textSize="15sp"
+	        android:textColor="#000"
+	        android:textStyle="bold" />
+	    
+	    <Button
+	        android:id="@+id/login_activity_btn_login"
+	        android:layout_width="264.88dp"
+	        android:layout_height="37.33dp"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="110dp"
+	        android:text="Login with KakaoTalk"
+	        android:textSize="15sp"
+	        android:textColor="#000"
+	        android:textStyle="bold"
+	        android:background="@drawable/btn_login" />
+    </RelativeLayout>
+    
+    
+</LinearLayout>
